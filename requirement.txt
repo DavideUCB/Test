@@ -9,3 +9,5 @@ from pathlib import Path
 import os
 from sas7bdat import SAS7BDAT
 import gc
+import warnings
+warnings.filterwarnings('ignore')
