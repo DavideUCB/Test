@@ -1,6 +1,6 @@
 # Function to install missing Packages
 def install(package):
-    subprocess.check_call([sys.executable, "-m", "pip", "install", package , '--user'])
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "venv", package , '--user'])
 # Trying to import all Pkgs required and install them if are not present in the local env
 try:
     # Libraries Needed by the script
