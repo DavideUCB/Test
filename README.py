@@ -30,7 +30,7 @@ except:
     temp = [p for p in pkg_resources.working_set]# list with pkgs and path in the local env
     pkgs_installed=[]
     [pkgs_installed.append(str(p)) for p in temp]# Removing path 
-    pkgs_installed=[r.replace(' ','==') for r in pkgs_installed]# #Replace empy space with '==' to match our check list
+    pkgs_installed=[s.replace(' ','==') for s in pkgs_installed]# #Replace empy space with '==' to match our check list
     import subprocess
     import sys
     for p in pkgs_req:
