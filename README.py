@@ -10,7 +10,9 @@ try:
     from tkinter.filedialog import askopenfilename
     from tkinter.filedialog import asksaveasfile
     from tkinter import filedialog
+    import pandas as pd
     from pathlib import Path
+    from sas7bdat import SAS7BDAT
     import os
     
     import gc
@@ -45,7 +47,9 @@ except:
     from tkinter.filedialog import askopenfilename
     from tkinter.filedialog import asksaveasfile
     from tkinter import filedialog
+    import pandas as pd
     from pathlib import Path
+    from sas7bdat import SAS7BDAT
     import os
     import gc
 
