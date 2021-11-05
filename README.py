@@ -13,7 +13,7 @@ try:
     import pandas as pd
     from pathlib import Path
     import os
-    from sas7bdat import SAS7BDAT
+    
     import gc
 
     import warnings
@@ -49,7 +49,6 @@ except:
     import pandas as pd
     from pathlib import Path
     import os
-    from sas7bdat import SAS7BDAT
     import gc
 
     import warnings
