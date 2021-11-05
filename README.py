@@ -12,9 +12,8 @@ try:
     from tkinter import filedialog
     import pandas as pd
     from pathlib import Path
-    from sas7bdat import SAS7BDAT
     import os
-    
+    from sas7bdat import SAS7BDAT
     import gc
 
     import warnings
@@ -49,8 +48,8 @@ except:
     from tkinter import filedialog
     import pandas as pd
     from pathlib import Path
-    from sas7bdat import SAS7BDAT
     import os
+    from sas7bdat import SAS7BDAT
     import gc
 
     import warnings
