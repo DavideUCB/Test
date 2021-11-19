@@ -194,7 +194,7 @@ def restart_program():
 
 convertGUI = tk.Tk()
 convertGUI.title("SAS Files Conversion to Excel Application")
-convertGUI.geometry("400x680")  
+convertGUI.geometry("280x680")  
 
 style = ttk.Style(convertGUI)
 style.configure('lefttab.TNotebook', tabposition='wn',background= "#354b96")
