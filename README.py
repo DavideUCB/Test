@@ -257,9 +257,9 @@ buttonSaveTab4 = tk.Button(tab4,text='2) Select Saving Location', width=25, font
 buttonRunTab4 = tk.Button(tab4,text="3) Run Program", fg="#bc2046", width=25, font=('Calibri', 11),command = convert_xpt_excel)
 buttonResetTab4 = tk.Button(tab4,text="4) Reset", width=25, font=('Calibri', 11), command=restart_program)
 
-buttonSelectTab4.grid(row=0, column=0, padx=15, pady=15)
+buttonSelectTab4.grid(row=0, column=1, padx=15, pady=15)
 buttonSaveTab4.grid(row=1, column=1, padx=15, pady=15)
-buttonRunTab4.grid(row=2, column=0, padx=15, pady=15)
+buttonRunTab4.grid(row=2, column=1, padx=15, pady=15)
 buttonResetTab4.grid(row=3, column=1, padx=15, pady=15)
 
 # buttons Tab5
