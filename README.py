@@ -194,7 +194,7 @@ def restart_program():
 
 convertGUI = tk.Tk()
 convertGUI.title("SAS Files Conversion to Excel Application")
-convertGUI.geometry("280x680")  
+convertGUI.geometry("680x280")  
 
 style = ttk.Style(convertGUI)
 style.configure('lefttab.TNotebook', tabposition='wn',background= "#354b96")
@@ -230,7 +230,7 @@ firstLabelTabOne = tk.Label(tab1,
 firstLabelTabOne.grid(row=0, column=0, padx=15, pady=30)
 
 # buttons Tab2
-buttonSelectTab2 = tk.Button(tab2,text='Select .Sas7bdat File', width=25, font=('Calibri', 11),command=sas_location)
+buttonSelectTab2 = tk.Button(tab2,text='Step1 )Select .Sas7bdat File', width=25, font=('Calibri', 11),command=sas_location)
 buttonSaveTab2 = tk.Button(tab2,text='Select Saving Location', width=25, font=('Calibri', 11),command=saving_location)
 buttonRunTab2 = tk.Button(tab2,text="Run Program",fg="#bc2046", width=25, font=('Calibri', 11), command = convert_sas_excel)
 buttonResetTab2 = tk.Button(tab2,text="Reset", width=25, font=('Calibri', 11), command=restart_program)
