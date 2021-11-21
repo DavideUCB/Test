@@ -236,9 +236,9 @@ buttonRunTab2 = tk.Button(tab2,text="Run Program",fg="#bc2046", width=25, font=(
 buttonResetTab2 = tk.Button(tab2,text="Reset", width=25, font=('Calibri', 11), command=restart_program)
 
 buttonSelectTab2.grid(row=0, column=1, padx=30, pady=30)
-buttonSaveTab2.grid(row=1, column=1, padx=15, pady=15)
-buttonRunTab2.grid(row=2, column=1, padx=15, pady=15)
-buttonResetTab2.grid(row=3, column=1, padx=15, pady=15)
+buttonSaveTab2.grid(row=1, column=1, padx=30, pady=30)
+buttonRunTab2.grid(row=2, column=1, padx=30, pady=30)
+buttonResetTab2.grid(row=3, column=1, padx=30, pady=30)
 
 # buttons Tab3
 buttonSelectTab3 = tk.Button(tab3,text='Select .Sas7bdat Folder', width=25, font=('Calibri', 11),command=sas_Dir_location)
