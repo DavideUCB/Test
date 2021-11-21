@@ -230,32 +230,32 @@ firstLabelTabOne = tk.Label(tab1,
 firstLabelTabOne.grid(row=0, column=0, padx=15, pady=30)
 
 # buttons Tab2
-buttonSelectTab2 = tk.Button(tab2,text='Step1 )Select .Sas7bdat File', width=25, font=('Calibri', 11),command=sas_location)
-buttonSaveTab2 = tk.Button(tab2,text='Select Saving Location', width=25, font=('Calibri', 11),command=saving_location)
-buttonRunTab2 = tk.Button(tab2,text="Run Program",fg="#bc2046", width=25, font=('Calibri', 11), command = convert_sas_excel)
-buttonResetTab2 = tk.Button(tab2,text="Reset", width=25, font=('Calibri', 11), command=restart_program)
+buttonSelectTab2 = tk.Button(tab2,text='1) Select .Sas7bdat File', width=25, font=('Calibri', 11),command=sas_location)
+buttonSaveTab2 = tk.Button(tab2,text='2) Select Saving Location', width=25, font=('Calibri', 11),command=saving_location)
+buttonRunTab2 = tk.Button(tab2,text="3) Run Program",fg="#bc2046", width=25, font=('Calibri', 11), command = convert_sas_excel)
+buttonResetTab2 = tk.Button(tab2,text="4) Reset", width=25, font=('Calibri', 11), command=restart_program)
 
-buttonSelectTab2.grid(row=0, column=1, padx=30, pady=30)
+buttonSelectTab2.grid(row=0, column=1, padx=15, pady=15)
 buttonSaveTab2.grid(row=1, column=1, padx=15, pady=15)
 buttonRunTab2.grid(row=2, column=1, padx=15, pady=15)
 buttonResetTab2.grid(row=3, column=1, padx=15, pady=15)
 
 # buttons Tab3
-buttonSelectTab3 = tk.Button(tab3,text='Select .Sas7bdat Folder', width=25, font=('Calibri', 11),command=sas_Dir_location)
-buttonSaveTab3 = tk.Button(tab3,text='Select Saving Location', width=25, font=('Calibri', 11),command=saving_Dir_location)
-buttonRunTab3 = tk.Button(tab3,text="Run Program", fg="#bc2046", width=25, font=('Calibri', 11),command = convert_multiple_sas_excel)
-buttonResetTab3 = tk.Button(tab3,text="Reset", width=25, font=('Calibri', 11), command=restart_program)
+buttonSelectTab3 = tk.Button(tab3,text='1) Select .Sas7bdat Folder', width=25, font=('Calibri', 11),command=sas_Dir_location)
+buttonSaveTab3 = tk.Button(tab3,text='2) Select Saving Location', width=25, font=('Calibri', 11),command=saving_Dir_location)
+buttonRunTab3 = tk.Button(tab3,text="3) Run Program", fg="#bc2046", width=25, font=('Calibri', 11),command = convert_multiple_sas_excel)
+buttonResetTab3 = tk.Button(tab3,text="4) Reset", width=25, font=('Calibri', 11), command=restart_program)
 
-buttonSelectTab3.grid(row=0, column=0, padx=30, pady=30)
-buttonSaveTab3.grid(row=0, column=1, padx=15, pady=15)
-buttonRunTab3.grid(row=1, column=0, padx=15, pady=15)
-buttonResetTab3.grid(row=1, column=1, padx=15, pady=15)
+buttonSelectTab3.grid(row=0, column=1, padx=15, pady=15)
+buttonSaveTab3.grid(row=1, column=1, padx=15, pady=15)
+buttonRunTab3.grid(row=2, column=1, padx=15, pady=15)
+buttonResetTab3.grid(row=2, column=1, padx=15, pady=15)
 
 # buttons Tab4
-buttonSelectTab4 = tk.Button(tab4,text='Select .Xpt File', width=25, font=('Calibri', 11),command=sas_location)
-buttonSaveTab4 = tk.Button(tab4,text='Select Saving Location', width=25, font=('Calibri', 11),command=saving_location)
-buttonRunTab4 = tk.Button(tab4,text="Run Program", fg="#bc2046", width=25, font=('Calibri', 11),command = convert_xpt_excel)
-buttonResetTab4 = tk.Button(tab4,text="Reset", width=25, font=('Calibri', 11), command=restart_program)
+buttonSelectTab4 = tk.Button(tab4,text='1) Select .Xpt File', width=25, font=('Calibri', 11),command=sas_location)
+buttonSaveTab4 = tk.Button(tab4,text='2) Select Saving Location', width=25, font=('Calibri', 11),command=saving_location)
+buttonRunTab4 = tk.Button(tab4,text="3) Run Program", fg="#bc2046", width=25, font=('Calibri', 11),command = convert_xpt_excel)
+buttonResetTab4 = tk.Button(tab4,text="4) Reset", width=25, font=('Calibri', 11), command=restart_program)
 
 buttonSelectTab4.grid(row=0, column=0, padx=30, pady=30)
 buttonSaveTab4.grid(row=0, column=1, padx=15, pady=15)
@@ -263,15 +263,15 @@ buttonRunTab4.grid(row=1, column=0, padx=15, pady=15)
 buttonResetTab4.grid(row=1, column=1, padx=15, pady=15)
 
 # buttons Tab5
-buttonSelectTab5 = tk.Button(tab5,text='Select .Xpt Folder', width=25, font=('Calibri', 11),command=sas_Dir_location)
-buttonSaveTab5 = tk.Button(tab5,text='Select Saving Location', width=25, font=('Calibri', 11),command=saving_Dir_location)
-buttonRunTab5 = tk.Button(tab5,text="Run Program", fg="#bc2046", width=25, font=('Calibri', 11),command = convert_multiple_xpt_excel)
-buttonResetTab5 = tk.Button(tab5,text="Reset", width=25, font=('Calibri', 11), command=restart_program)
+buttonSelectTab5 = tk.Button(tab5,text='1) Select .Xpt Folder', width=25, font=('Calibri', 11),command=sas_Dir_location)
+buttonSaveTab5 = tk.Button(tab5,text='2) Select Saving Location', width=25, font=('Calibri', 11),command=saving_Dir_location)
+buttonRunTab5 = tk.Button(tab5,text="3) Run Program", fg="#bc2046", width=25, font=('Calibri', 11),command = convert_multiple_xpt_excel)
+buttonResetTab5 = tk.Button(tab5,text="4) Reset", width=25, font=('Calibri', 11), command=restart_program)
 
-buttonSelectTab5.grid(row=0, column=0, padx=30, pady=30)
-buttonSaveTab5.grid(row=0, column=1, padx=15, pady=15)
-buttonRunTab5.grid(row=1, column=0, padx=15, pady=15)
-buttonResetTab5.grid(row=1, column=1, padx=15, pady=15)
+buttonSelectTab5.grid(row=0, column=1, padx=15, pady=15)
+buttonSaveTab5.grid(row=1, column=1, padx=15, pady=15)
+buttonRunTab5.grid(row=2, column=1, padx=15, pady=15)
+buttonResetTab5.grid(row=3, column=1, padx=15, pady=15)
 
 ###########################################################################################################
 
