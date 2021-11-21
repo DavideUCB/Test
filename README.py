@@ -235,7 +235,7 @@ buttonSaveTab2 = tk.Button(tab2,text='2) Select Saving Location', width=25, font
 buttonRunTab2 = tk.Button(tab2,text="3) Run Program",fg="#bc2046", width=25, font=('Calibri', 11), command = convert_sas_excel)
 buttonResetTab2 = tk.Button(tab2,text="4) Reset", width=25, font=('Calibri', 11), command=restart_program)
 
-buttonSelectTab2.grid(row=0, column=1, padx=165, pady=15)
+buttonSelectTab2.grid(row=0, column=1, padx=145, pady=15)
 buttonSaveTab2.grid(row=1, column=1, padx=15, pady=15)
 buttonRunTab2.grid(row=2, column=1, padx=15, pady=15)
 buttonResetTab2.grid(row=3, column=1, padx=15, pady=15)
